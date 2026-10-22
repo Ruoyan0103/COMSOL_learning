@@ -1,0 +1,23 @@
+# COMSOL model files: large binaries, kept locally (see README)
+*.mph
+*.mph.lock
+*.recovery/
+*.mphbin
+*.mphtxt
+
+# Third-party tutorial PDFs (COMSOL copyright) - download from the Application Gallery
+**/tutorials/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*~
